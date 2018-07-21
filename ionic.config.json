@@ -4,5 +4,13 @@
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "proxies": [
+    {
+      "path": "/iris_api",
+      "proxyUrl": "https://iris.prod.linkedin.com/v0"
+    },
+    {"path": "/proxy",
+     "proxyUrl": "http://www.google.com"}
+  ]
 }
